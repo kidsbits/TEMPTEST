@@ -152,15 +152,21 @@ const config = {
 
   themes: [
     [
-      "@easyops-cn/docusaurus-search-local",
-      {
+
+//**********************************************************//
+      // https://github.com/easyops-cn/docusaurus-search-local
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      ({
         hashed: true,
-        language: ["en", "zh"],
+        language: ["zh","en"],
         highlightSearchTermsOnTargetPage: true,
         explicitSearchResultPath: true,
-      },
+      }),
+//----------------------------------------------------------//
+
     ],
-  ],
+  ],  //  themes:
 
 
 
