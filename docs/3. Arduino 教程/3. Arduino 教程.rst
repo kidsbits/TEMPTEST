@@ -6,11 +6,11 @@
 
 **Arduino资料包含库文件和项目代码，请点击下载才能进行后续的学习！！！！**
 
-下载：\ :download:`Arduino资料 <./Arduino.7z>`
+下载：\ `Arduino资料 <./Arduino.7z>`__
 
 **教程所需APP安装包！！！**
 
-下载：\ :download:`APP <../APP.7z>`
+下载：\ `APP <../APP.7z>`__
 
 3.2 Windows系统软件下载、安装和开发环境配置
 -------------------------------------------
@@ -218,6 +218,10 @@ ESP32 Plus主板 x1 USB线 x1
 1.4 实验代码
 
 本项目中使用的代码保存在文件夹“\*\*:raw-latex:`\程序代码`:raw-latex:`\Arduino`\_代码\ **”中，我们可以在此路径下打开代码文件’’**\ HelloWorld.ino*\*“。
+
+本项目中使用的代码保存在文件夹’’:raw-latex:`\程序代码`:raw-latex:`\Arduino`\_代码‘’中，我们可以在此路径下打开代码文件’‘HelloWorld.ino’’。
+
+本项目中使用的代码保存在文件夹*\*“:raw-latex:`\程序代码`:raw-latex:`\Arduino`\_代码”\ **中，我们可以在此路径下打开代码文件’’**\ HelloWorld.ino*\*“。
 
 .. code:: cpp
 
