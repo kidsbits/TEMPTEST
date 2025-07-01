@@ -6,7 +6,7 @@
 2.1Windows系统驱动安装
 ----------------------
 
-Windows系统驱动下载：\ `Windows驱动 <./Windows.7z>`__
+Windows系统驱动下载：\ :download:`Windows驱动 <./Windows.7z>`
 
 1、将主板连接到电脑（如图）；
 
@@ -51,7 +51,7 @@ Windows系统驱动下载：\ `Windows驱动 <./Windows.7z>`__
 2.2Mac系统驱动安装
 ------------------
 
-Mac系统驱动下载：\ `Mac驱动 <./Mac.7z>`__
+Mac系统驱动下载：\ :download:`Mac驱动 <./Mac.7z>`
 
 1、下载驱动后解压，在下载路径中找到CH340驱动文件，点击“\ **.dmg文件**\ ”。
 
