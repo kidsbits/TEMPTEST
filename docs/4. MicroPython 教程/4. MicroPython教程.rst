@@ -4,7 +4,7 @@
 4.1 下载代码
 ------------
 
-请先下载本教程需要用到的所有：\ :download:`资料下载 <./Python.7z>`\ ，保存至您方便使用的路径下。
+请先下载本教程需要用到的所有：\ `资料下载 <./Python.7z>`__\ ，保存至您方便使用的路径下。
 
 **本MicroPython项目的所有实验都是以将代码文件夹移动到（D:）盘中为例的，移动后路径为**
 **D::raw-latex:`\代码`** 。
@@ -297,8 +297,8 @@ Loop）即时执行模式。
 
    img
 
-（2）在弹出的页面选择路径 **..:raw-latex:`\代码`\\01 Hello World** 下的
-**lesson_01_HelloWorld.py**\ “Python 文件，然后单击\ **打开**\ 。
+（2）在弹出的页面选择下图路径下的 **lesson_01_HelloWorld.py** Python
+文件，然后单击\ **打开**\ 。
 
 .. figure:: ./media/5202.png
    :alt: img
@@ -324,9 +324,7 @@ World**\ 。
 
 ESP32复位后，首先运行根目录下的boot.py文件，然后运行你的代码文件，最后进入Shell。因此，为了让ESP32在重置后执行用户程序，我们需要在boot.py中添加一个引导程序来执行用户代码。
 
-（1）将程序文件夹\ **Python_代码**\ （路径为：
-\*\*..:raw-latex:`\程序代码`:raw-latex:`\Python`\_代码*\*
-）移动到此电脑的(D)，命名为\ **代码**\ ，移动后路径为**D::raw-latex:`\代码*`\*。
+（1）将程序文件夹 **代码** 移动到电脑的D盘。
 
 （2）打开Thonny，在文件管理框单击\ **此电脑**\ ，双击\ **（D:）**\ ，然后双击展开\ **代码**\ 文件夹。
 
@@ -418,8 +416,8 @@ to /** 将代码上传到ESP32的根目录，然后选择 **确定**\ 。
 5.2 下载代码到电脑
 ^^^^^^^^^^^^^^^^^^
 
-在\ **MicroPython 设备**\ 内选中\ **boot.py**\ ，右键选择**下载到
-D::raw-latex:`\代码*`\*把代码下载到你的电脑里。
+在\ **MicroPython
+设备**\ 内选中\ **boot.py**\ ，单击右键，选择将代码下载到你的电脑里。
 
 .. figure:: ./media/6201.png
    :alt: img
@@ -531,11 +529,6 @@ ESP32 Plus主板 x1 USB线 x1
 
 2. 如果ESP32与电脑断开连接，当它们重新连接时，程序将无法再次运行。
 
-本项目中使用的代码保存在文件夹
-\*\*..:raw-latex:`\程序代码`:raw-latex:`\Python`\_代码*\*
-中，你可以将代码移至任何你方便使用的地方。\ **本MicroPython课程的所有实验都是以将代码文件夹移动到（D:）盘中为例的**\ ，命名为
-**代码**\ ，移动后路径为 **D::raw-latex:`\代码`** 。
-
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
 .. figure:: ./media/011401.png
@@ -543,8 +536,7 @@ ESP32 Plus主板 x1 USB线 x1
 
    img
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_01_HelloWorld.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_01_HelloWorld.py** 。
 
 .. figure:: ./media/011402.png
    :alt: img
@@ -573,7 +565,7 @@ lesson_01_HelloWorld.py*\* 。
 
 1.1 项目介绍
 
-LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）、氮（N）等的\ `化合物 <https://baike.baidu.com/item/化合物/1142931>`__\ 制成。当电子与\ `空穴 <https://baike.baidu.com/item/空穴/3517781>`__\ 复合时能辐射出可见光，因而可以用来制成发光二极管。在电路及仪器中作为指示灯，或者组成文字或数字显示。砷化镓二极管发红光，磷化镓二极管发绿光，碳化硅二极管发黄光，氮化镓二极管发蓝光。因化学性质又分有机发光二极管OLED和无机发光二极管LED。
+LED，即发光二极管的简称。由含镓（Ga）、砷（As）、磷（P）、氮（N）等的化合物制成。当电子与空穴复合时能辐射出可见光，因而可以用来制成发光二极管。在电路及仪器中作为指示灯，或者组成文字或数字显示。砷化镓二极管发红光，磷化镓二极管发绿光，碳化硅二极管发黄光，氮化镓二极管发蓝光。因化学性质又分有机发光二极管OLED和无机发光二极管LED。
 
 为了实验的方便，我们将紫色LED发光二极管做成了一个紫色LED模块。它的控制方法非常简单，只要让LED两端有一定的电压就可以点亮LED。在这个项目中，我们用一个最基本的测试代码来控制LED，亮一秒钟，灭一秒钟，来实现闪烁的效果。你可以改变代码中LED灯亮灭的时间，实现不同的闪烁效果。我们通过编程控制信号端S的高低电平，从而控制LED的亮灭。LED模块信号端S为高电平时LED亮起，S为低电平时LED熄灭。
 
@@ -619,11 +611,6 @@ VCC供电后，信号端S为高电平时，模块上LED亮起。
 
 1.6 在线运行代码
 
-本项目中使用的代码保存在文件夹
-\*\*..:raw-latex:`\程序代码`:raw-latex:`\Python`\_代码*\*
-中，你可以将代码移至任何你方便使用的地方。\ **本课程的所有实验都是以将代码文件夹移动到（D:）盘中为例的**\ ，命名为
-**代码**\ ，移动后路径为 \**D::raw-latex:`\代码*`\* 。
-
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
 .. figure:: ./media/011401.png
@@ -631,8 +618,7 @@ VCC供电后，信号端S为高电平时，模块上LED亮起。
 
    img
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_02_Blink.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_02_Blink.py** 。
 
 .. figure:: ./media/021601.png
    :alt: img
@@ -737,8 +723,7 @@ lesson_02_Blink.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_03_Traffic_Light.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_03_Traffic_Light.py** 。
 
 .. code:: python
 
@@ -838,8 +823,7 @@ lesson_03_Traffic_Light.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_04_Laser.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_04_Laser.py** 。
 
 .. code:: python
 
@@ -943,8 +927,7 @@ VCC供电后，信号端S为高电平时，模块上LED亮起。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_05_Breath.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_05_Breath.py** 。
 
 .. code:: python
 
@@ -1041,8 +1024,7 @@ RGB三色也就是三基色，红色、绿色、蓝色。人眼对RGB三色最�
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件** lesson_06_RGB.py*\*
-。
+选中代码文件保存的路径，打开代码文件 **lesson_06_RGB.py** 。
 
 .. code:: python
 
@@ -1086,7 +1068,7 @@ RGB三色也就是三基色，红色、绿色、蓝色。人眼对RGB三色最�
 | pwm0 =                   | 定义GP32脚为PWM输出并命名为pwm0，频率为10000Hz。   |
 | PWM(Pin(pins[0]),10000)  |                                                    |
 +--------------------------+----------------------------------------------------+
-| pwm0.duty(1023-r)        | 设置占空比.                                        |
+| pwm0.duty(1023-r)        | 设置占空比。                                       |
 +--------------------------+----------------------------------------------------+
 | randint(a，b)            | randint(a,b)函数：生成一个[a,b]之间的随机整数。    |
 +--------------------------+----------------------------------------------------+
@@ -1161,8 +1143,7 @@ LED开始随机显示颜色。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_07_button.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_07_button.py** 。
 
 .. code:: python
 
@@ -1277,8 +1258,7 @@ S 端的高低电平，判断电容触摸模块上的感应区是否感应到触
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_08_Touch.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_08_Touch.py** 。
 
 .. code:: python
 
@@ -1382,8 +1362,7 @@ NE555时基电路提供给发射管TX发射出一定频率的红外信号，红�
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_09_Avoiding.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_09_Avoiding.py** 。
 
 .. code:: python
 
@@ -1505,8 +1484,7 @@ LED介于不亮与亮之间的临界点时，灵敏度最好。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_10_Line_tracking.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_10_Line_tracking.py** 。
 
 .. code:: python
 
@@ -1599,8 +1577,7 @@ White** 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_11_Photo_Interrupt.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_11_Photo_Interrupt.py** 。
 
 .. code:: python
 
@@ -1717,8 +1694,7 @@ Keyes
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_12_Tilt_switch.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_12_Tilt_switch.py** 。
 
 .. code:: python
 
@@ -1815,8 +1791,8 @@ turned on** 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_13_collision_sensor.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_13_collision_sensor.py**
+。
 
 .. code:: python
 
@@ -1908,8 +1884,7 @@ A3144 是数字输出霍尔传感器。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件** lesson_14_Hall.py*\*
-。
+选中代码文件保存的路径，打开代码文件 **lesson_14_Hall.py** 。
 
 .. code:: python
 
@@ -2001,8 +1976,7 @@ magnetic field ，且模块上的LED被点亮。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_15_Reed_Switch*\*“。
+选中代码文件保存的路径，打开代码文件 **lesson_15_Reed_Switch**\ ”。
 
 .. code:: python
 
@@ -2110,8 +2084,7 @@ Vgs = 3.3V 大于Q1的阈值电压 2.5V，Q1导通。），信号端S检测到�
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_16_PIR_motion.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_16_PIR_motion.py** 。
 
 .. code:: python
 
@@ -2201,8 +2174,7 @@ lesson_16_PIR_motion.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_17_Active_buzzer.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_17_Active_buzzer.py** 。
 
 .. code:: python
 
@@ -2284,8 +2256,7 @@ lesson_17_Active_buzzer.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_18_Passive_buzzer.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_18_Passive_buzzer.py** 。
 
 .. code:: python
 
@@ -2394,8 +2365,7 @@ HR1124S芯片的作用是助于驱动电机。而电机所需电流较大，无�
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_19_130_Motor.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_19_130_Motor.py** 。
 
 .. code:: python
 
@@ -2584,8 +2554,7 @@ DAC2                    GPIO26
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_20_potentiometer.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_20_potentiometer.py** 。
 
 .. code:: python
 
@@ -2704,8 +2673,7 @@ Keyes
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_21_Steam_sensor.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_21_Steam_sensor.py** 。
 
 .. code:: python
 
@@ -2827,8 +2795,7 @@ Keyes
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_22_MicroPhone.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_22_MicroPhone.py** 。
 
 .. code:: python
 
@@ -2925,8 +2892,7 @@ MΩ，光敏电阻的信号端（2脚）检测的电压接近0。随着光照强
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_23_photoresistance.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_23_photoresistance.py** 。
 
 .. code:: python
 
@@ -3045,8 +3011,7 @@ t = T1 - 273.15，同时加上0.5的误差矫正。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_24_temperature.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_24_temperature.py** 。
 
 .. code:: python
 
@@ -3169,8 +3134,7 @@ lesson_24_temperature.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件** lesson_25_film
-pressure.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_25_film pressure.py** 。
 
 .. code:: python
 
@@ -3267,8 +3231,7 @@ pressure.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_26_Flame_sensor.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_26_Flame_sensor.py** 。
 
 .. code:: python
 
@@ -3382,8 +3345,7 @@ D 端输出数字值。当测量气体含量超过临界点时，D
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件** lesson_27_MQ-2.py*\*
-。
+选中代码文件保存的路径，打开代码文件 **lesson_27_MQ-2.py** 。
 
 .. code:: python
 
@@ -3495,8 +3457,7 @@ D 端输出数字值。当测量气体含量超过临界点时，D
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件** lesson_28_MQ-3.py*\*
-。
+选中代码文件保存的路径，打开代码文件 **lesson_28_MQ-3.py** 。
 
 .. code:: python
 
@@ -3607,8 +3568,7 @@ Shell窗口打印出对应的数据和字符，当传感器检测到酒精气体
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_29_Five_AD_keys.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_29_Five_AD_keys.py** 。
 
 .. code:: python
 
@@ -3716,8 +3676,7 @@ lesson_29_Five_AD_keys.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_30_joystick.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_30_joystick.py** 。
 
 .. code:: python
 
@@ -3863,8 +3822,7 @@ close）表示常闭端，NO(normal open)表示常开端。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_31_Relay.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_31_Relay.py** 。
 
 .. code:: python
 
@@ -3963,8 +3921,7 @@ IC型号 : 4颗/WS2811
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_32_Sk6812_RGB.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_32_Sk6812_RGB.py** 。
 
 .. code:: python
 
@@ -4233,8 +4190,7 @@ Pressed Selected Number is :（当前值) 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_34_Servo_test1.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_34_Servo_test1.py** 。
 
 .. code:: python
 
@@ -4282,8 +4238,7 @@ lesson_34_Servo_test1.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_34_Servo_test2.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_34_Servo_test2.py** 。
 
 .. code:: python
 
@@ -4417,8 +4372,7 @@ HC-SR04超声波测距模块可提供范围为2厘米至4米的非接触式距�
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_35_ultrasonic.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_35_ultrasonic.py** 。
 
 .. code:: python
 
@@ -4543,8 +4497,7 @@ Keyes
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_36_IR_receiver.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_36_IR_receiver.py** 。
 
 .. code:: python
 
@@ -4838,8 +4791,7 @@ XHT11之间的通讯和同步,采用单总线数据格式,一次通讯时间4ms�
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_38_XHT11.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_38_XHT11.py** 。
 
 .. code:: python
 
@@ -4962,8 +4914,7 @@ SDA        串行数据
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_39_DS1307.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_39_DS1307.py** 。
 
 .. code:: python
 
@@ -5332,8 +5283,7 @@ B[0] ：设置数码管的开屏、关屏。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_41_TM1650.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_41_TM1650.py** 。
 
 **注意：在上传代码前先接好模块，否则代码可能上传不成功。**
 
@@ -5707,8 +5657,7 @@ ST7567A。此模块使用IIC通信方式。我们提供了包含所有英文字�
 
 注意：在上传代码前先接好模块，否则代码可能上传不成功。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_43_lcd128_32_test.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_43_lcd128_32_test.py** 。
 
 .. code:: python
 
@@ -5866,8 +5815,7 @@ Tag就会供电，从而激活设备。
 
 注意：在上传代码前先接好模块，否则代码可能上传不成功。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_44_mfrc522.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_44_mfrc522.py** 。
 
 .. code:: python
 
@@ -5951,8 +5899,8 @@ lesson_44_mfrc522.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_45_button_control_LED.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_45_button_control_LED.py**
+。
 
 .. code:: python
 
@@ -6026,8 +5974,7 @@ lesson_45_button_control_LED.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_46_Avoiding_alarm.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_46_Avoiding_alarm.py** 。
 
 .. code:: python
 
@@ -6081,8 +6028,7 @@ lesson_46_Avoiding_alarm.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_47_PIR_alarm.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_47_PIR_alarm.py** 。
 
 .. code:: python
 
@@ -6166,8 +6112,7 @@ Intrusion detected！ 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\*
-路径，打开代码文件’’**\ 48_Fire_fighting_robot.py*\* 。
+选中代码文件保存的路径，打开代码文件’’\ **48_Fire_fighting_robot.py** 。
 
 .. code:: python
 
@@ -6332,8 +6277,8 @@ Shell
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_50_adjust_the_light.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_50_adjust_the_light.py**
+。
 
 .. code:: python
 
@@ -6405,8 +6350,7 @@ lesson_50_adjust_the_light.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_51_Smart_window.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_51_Smart_window.py** 。
 
 .. code:: python
 
@@ -6487,8 +6431,8 @@ lesson_51_Smart_window.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_52_sound_controlled_lights.py*\* 。
+选中代码文件保存的路径，打开代码文件
+**lesson_52_sound_controlled_lights.py** 。
 
 .. code:: python
 
@@ -6556,8 +6500,7 @@ lesson_52_sound_controlled_lights.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_53_Flame_alarm.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_53_Flame_alarm.py** 。
 
 .. code:: python
 
@@ -6622,8 +6565,7 @@ lesson_53_Flame_alarm.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_54_smoke_alarm.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_54_smoke_alarm.py** 。
 
 .. code:: python
 
@@ -6861,8 +6803,7 @@ lesson_54_smoke_alarm.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_55_breathalyzer.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_55_breathalyzer.py** 。
 
 .. code:: python
 
@@ -7102,8 +7043,8 @@ lesson_55_breathalyzer.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_56_Ultrasonic_radar.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_56_Ultrasonic_radar.py**
+。
 
 .. code:: python
 
@@ -7409,8 +7350,7 @@ true，即可点亮LED；同理按下“OK”键的同时 flag 为 false，熄�
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_57_IR_control_LED.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_57_IR_control_LED.py** 。
 
 .. code:: python
 
@@ -7537,8 +7477,7 @@ False led off** 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_58_heat_abstractor.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_58_heat_abstractor.py** 。
 
 注意：在上传代码前先接好模块，否则代码可能上传不成功。
 
@@ -7783,8 +7722,8 @@ lesson_58_heat_abstractor.py*\* 。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_59_Intelligent_access_contro.py*\* 。
+选中代码文件保存的路径，打开代码文件
+**lesson_59_Intelligent_access_contro.py** 。
 
 **若上传不成功，请查看是否添加了库。**
 
@@ -7896,8 +7835,8 @@ ESP32 Plus主板 x1 USB线 x1
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_60_WiFi_Station_Mode.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_60_WiFi_Station_Mode.py**
+。
 
 路由器的SSID是无线网的无线名称。SSID是 ServiceSetldentifier
 的缩写，意思是:服务集标识。SSID技术可以将一个无线局域网分为几个需要不同身份验证的子网络，每一个子网络都需要独立的身份验证，只有通过身份验证的用户才可以进入相应的子网络，防止未被授权的用户进入本网络。所以在代码运行之前，需要配置
@@ -8000,8 +7939,7 @@ ESP32 Plus主板 x1 USB线 x1
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_61_WiFi_AP_Mode.py*\* 。
+选中代码文件保存的路径，打开代码文件 **lesson_61_WiFi_AP_Mode.py** 。
 
 在代码运行之前，需要配置ESP32的
 AP名称和连接密码，如下图所示。当然，你也可以不修改它，使用默认的名称和连接密码。
@@ -8111,8 +8049,8 @@ ESP32 Plus主板 x1 USB线 x1
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_62_WiFi_Station+AP_Mode.py*\* 。
+选中代码文件保存的路径，打开代码文件
+**lesson_62_WiFi_Station+AP_Mode.py** 。
 
 在代码运行之前，需要配置 WiFi 名称和密码、ESP32的
 AP名称和连接密码，如下图所示。
@@ -8238,8 +8176,8 @@ AP名称和连接密码，如下图所示。
 
 打开Thonny并单击\ |1303|\ ，然后单击 **此电脑** 。
 
-选中 **D::raw-latex:`\代码*`\* 路径，打开代码文件**
-lesson_63_Comprehensive_experiment.py*\* 。
+选中代码文件保存的路径，打开代码文件
+**lesson_63_Comprehensive_experiment.py** 。
 
 .. code:: python
 
