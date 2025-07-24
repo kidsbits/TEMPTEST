@@ -18,7 +18,6 @@
 # -- Project information -----------------------------------------------------
 
 project = 'keyes WiKi'
-copyright = 'keyes , WiKi'
 author = 'keyes WiKi'
 copyright = 'Shenzhen keyes Technology Co., Ltd'
 
@@ -30,11 +29,29 @@ master_doc = "index"
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-#extensions = ['sphinx_copybutton']
-extensions = ["myst_parser","sphinx_copybutton"]
-source_suffix = { '.rst': 'restructuredtext', '.txt': 'markdown', '.md': 'markdown', }
-myst_enable_extensions = [ "amsmath", "attrs_inline", "colon_fence", "deflist", "dollarmath", "fieldlist", "html_admonition", "html_image", "replacements", "smartquotes", "strikethrough", "substitution", "tasklist" ]
+extensions = ['myst_parser','sphinx_copybutton']
 
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
+
+myst_enable_extensions = [
+    "amsmath",
+    "attrs_inline",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -52,9 +69,10 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #
 html_theme = 'sphinx_book_theme'
 html_theme_options = {
-  "show_toc_level": 3,
+  "show_toc_level": 2,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
+html_static_path = ['_static']

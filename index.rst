@@ -1,17 +1,8 @@
-
 .. toctree::
-   :maxdepth: 3
-   :caption: dddddddddddddddddddd
+   :maxdepth: 2
+   :caption: Coding Box
 
-   README.md
-   docs/index.md
-   docs/KidsBlockDesktop/KidsBlockDesktopTutorial.md
-   docs/MicroBlocks/MicroBlocksTutorial.md
-   docs/MicroPython/MicroPythonTutorial.md
-
-
-
-
-
-
-
+   docs/introduce
+   docs/KidsBlockDesktop/KidsBlock
+   docs/MicroBlocksTutorial/MicroBlocks1
+   docs/MicroPythonTutorial/MicroPython1
