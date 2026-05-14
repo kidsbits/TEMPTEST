@@ -1,6 +1,9 @@
 
-5.Projects
+Projects
 ----------
+
+.. toctree::
+    :maxdepth: 1
 
    project/Project_01_LED_Blink.md
    project/Project_02_SOS.md
