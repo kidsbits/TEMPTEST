@@ -1,33 +1,15 @@
-# Freenove Tutorial Online
+KT0280-New-Keyes-RFID-Starter-Kit
 
-<img src="extra\freenove-logo.jpg" alt="freenove-logo" width='100%' align="left"/>
+1.Introduction
+Keyes RFID Starter Kit is an Arduino-compatible development kit designed for beginners and electronics enthusiasts. This kit contains multiple sensors and modules to help you get started quickly and practice a variety of basic and intermediate electronics projects.
 
+2.Features
+1. User-Friendliness: Arduino is popular for its simplicity and ease of use, allowing users to get started without needing advanced programming or electronic expertise.
 
+2. Abundant Component Modules: The kit includes various modules like LEDs, sensors, displays, and motors, enabling users to undertake diverse projects.
 
-## <img src="extra\start.png" alt="start" width='5%' align="left"/> **Quick Start**
+3. Detailed Tutorials: It offers detailed tutorials for 40 projects, covering working principles, code, and wiring diagrams to help users gradually master the basics.
 
-Online Tutorial URL：[tutorial](https://docs.freenove.com/en/latest/)
+4. Versatile Applications: The kit supports the creation of a wide range of projects, from basic temperature monitoring to complex smart home systems, greatly expanding its applicability.
 
-
-
-## <img src="extra\text.png" alt="text" width='5%' align="left"/> **Materials Download**
-
-Tutorial Materials Download URL：[download](https://docs.freenove.com/en/latest/about-freenove/tutorial.html)
-
-
-
-## <img src="extra\support.png" alt="support" width='4%' align="left"/>  **Support**
-
-We are fully responsible for our products!
-
-Please feel free to send us an email if you have any concerns, whether they are questions before buying or problems in use.
-
-[support@freenove.com](mailto:support@freenove.com)
-
-In general, we will reply to you within one working day.
-
-
-
-## <img src="extra\freenove.png" alt="freenove" width='5%' align="left"/>**Freenove Official Website**
-
-Freenove Official Website URL: [Freenove](https://freenove.com/)
+5. Expandability: Beyond the basic projects in the tutorials, users can explore and develop more advanced applications based on personal interests. This flexibility significantly enhances the kit’s practical value.

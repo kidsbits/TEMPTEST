@@ -1,5 +1,6 @@
 @echo off
 pushd %~dp0
+ipconfig /flushdns
 
 ::git pull
 

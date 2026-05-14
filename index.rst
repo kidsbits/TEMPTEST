@@ -1,10 +1,14 @@
-.. toctree::
-   :maxdepth: 2
-   :caption: Coding Box
 
-   docs/index_de.rst
-   docs/Arduino/Arduino/arduino_de.rst
-   docs/Python/Python/Python_de.rst
+.. toctree::
+   :maxdepth: 3
+   :caption: KT0280 Keyes New RFID Starter Kit
+
+
+   docs/index.md
+   docs/Projects.rst
+
+
+
 
 
 

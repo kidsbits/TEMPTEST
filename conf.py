@@ -17,12 +17,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'keyes WiKi'
-author = 'keyes WiKi'
-copyright = 'Shenzhen keyes Technology Co., Ltd'
-
-root_doc = "index"
-master_doc = "index"
+project = 'Keyes New RFID Starter Kit'
+copyright = 'keyestudio WiKi'
+author = 'keyes'
 
 # -- General configuration ---------------------------------------------------
 
